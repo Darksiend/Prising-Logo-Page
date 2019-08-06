@@ -4,6 +4,9 @@
     font-size: 13px;
 }
 
+.html{
+    font-size: 13px;
+}
 
 *,
 *:before,
@@ -219,11 +222,13 @@ h6 {
 
 .pricing {
     display: block;
+    background-color: #f9fafc;
+    
 
 }
 
 .pricing__header {
-    margin-top: 120px;
+    padding-top: 120px;
     margin-left: auto;
     margin-right: auto;
 
@@ -271,3 +276,138 @@ h6 {
 
 
 }
+
+.prising__tags__kind {
+    color: #9fa4af;
+    font-family: "Maven Pro";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 32px;
+    text-transform: uppercase;
+    /* Text style for "personal" */
+    letter-spacing: 0.7px;
+    margin-bottom: 30px;
+}
+
+.prising__tags__text {
+    color: #9fa4af;
+    font-family: "Maven Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    max-width: 300px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    height: 140px;
+    margin-bottom: 60px;
+}
+
+.prising__tags__price{
+    margin-bottom: 20px;
+}
+
+
+.price-btn{
+    color: #c6cdde;
+font-family: "Maven Pro";
+font-size: 12px;
+font-weight: 700;
+line-height: 32px;
+text-transform: uppercase;
+/* Text style for "select pla" */
+letter-spacing: 0.6px;
+width: 190px;
+height: 50px;
+box-shadow: 0 0 19px 2px rgba(204, 204, 223, 0.5);
+border-radius: 25px;
+border: 1px solid #d7dbe8;
+background-color: #ffffff;
+cursor: pointer;
+
+    
+}
+
+.price-btn:hover{
+    color: #fff;
+    background-color:#6e45e2;
+}
+
+
+.prising__tags{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    padding-bottom: 120px;
+    
+}
+
+
+ 
+.prising__tags__item {
+    
+    max-width: 440px;
+    width: 100%;
+    height: 670px;
+    text-align:center;
+    background-color: #ffffff;
+    border-radius: 30px;
+    border: 1px solid #d7dbe8;
+    transition: box-shadow .2s linear;
+    
+
+}
+
+.prising__tags__price{
+    color: #4f4f6f;
+font-family: "Maven Pro";
+font-size: 18px;
+font-weight: 500;
+line-height: 72px;
+}
+
+.prising__tags__price sup{
+ 
+    color: #4f4f6f;
+    font-family: "Maven Pro";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 50.55px;
+    /* Text style for "$" */
+    letter-spacing: -0.64px;
+}
+
+.prising__tags__price {
+    color: #4f4f6f;
+    font-family: "Maven Pro";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 72px;
+    /* Text style for "29" */
+    font-size: 60px;
+    letter-spacing: -1.69px;
+}
+
+.prising__tags__price span{
+    color: #4f4f6f;
+font-family: "Maven Pro";
+font-size: 18px;
+font-weight: 500;
+line-height: 72px;
+letter-spacing: -0.51px;
+}
+
+.prising__tags__item:hover{
+    box-shadow: 0 0 82px 10px rgba(204, 204, 223, 0.71);
+}
+
+.img__tags img{
+    margin-top: 60px;
+    margin-bottom: 50px;
+    width: 120px;
+    height: 100px;
+    
+}
+
