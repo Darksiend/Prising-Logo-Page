@@ -504,7 +504,7 @@ h6 {
     text-decoration: none;
 }
 
-.footer_nav__link:hover{
+.footer_nav__link:hover {
     color: #756edc;
     text-decoration: none;
 }
@@ -512,8 +512,8 @@ h6 {
 .footer {
     width: 100%;
     padding-bottom: 30px;
-    
-    
+
+
 
 
 }
@@ -521,46 +521,46 @@ h6 {
 
 
 
-.footer__inner{
+.footer__inner {
     display: flex;
     justify-content: space-between;
 }
-.footer__header__logo{
+
+.footer__header__logo {
     margin-top: 30px;
-   
+
 
 }
 
-.footer__nav{
+.footer__nav {
     margin-top: 50px;
-    
-    
+
+
 }
 
-.footer__get-started-btn{
+.footer__get-started-btn {
     text-decoration: none;
-    
+
     text-transform: uppercase;
     /* Text style for "get starte" */
     letter-spacing: 0.6px;
     border: 1px solid #fff;
     padding: 20px 30px;
     border-radius: 30px;
-    
+
     background-color: #6e45e2;
     margin-left: 30px;
     color: #ffffff;
-font-family: "Maven Pro";
-font-size: 12px;
-font-weight: 700;
-line-height: 32px;
-text-transform: uppercase;
-/* Text style for "get starte" */
-letter-spacing: 0.6px;
+    font-family: "Maven Pro";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 32px;
+    text-transform: uppercase;
+    /* Text style for "get starte" */
+    letter-spacing: 0.6px;
 
 }
 
-.footer__get-started-btn:hover{
+.footer__get-started-btn:hover {
     box-shadow: 0 0 30px 10px rgba(204, 204, 223, 0.5);
 }
-
