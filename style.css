@@ -59,6 +59,11 @@ h6 {
     z-index: 1000;
 }
 
+.logo__img {
+    width: 100%;
+    min-width: 240px;
+}
+
 .header__inner {
 
 
@@ -203,6 +208,60 @@ h6 {
     color: #ffffff;
 }
 
+.nav-toggle {
+    position: absolute;
+    top: 50px;
+    right: 24px;
+    z-index: 1;
+    width: 30px;
+
+    font-size: 0;
+    color: transparent;
+    border: 0;
+    background: none;
+    cursor: pointer;
+
+
+}
+
+
+.nav-toggle:after,
+.nav-toggle:before {
+    content: '';
+    width: 100%;
+    height: 3px;
+
+    position: absolute;
+    background-color: #fff;
+    left: 0;
+    z-index: 1;
+
+}
+
+.nav-toggle:after {
+    content: '';
+    top: -8px;
+}
+
+.nav-toggle:before {
+    content: '';
+    top: 8px;
+}
+
+.nav-toggle__item {
+    width: 100%;
+    height: 3px;
+    display: block;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+
+}
+
 .get-started-btn {
     color: #ffffff;
     font-family: "Maven Pro";
@@ -215,7 +274,7 @@ h6 {
     border: 1px solid #fff;
     padding: 10px 20px;
     border-radius: 30px;
-    margin-left: 70px;
+    margin-left: 30px;
 }
 
 /* pricing */
@@ -301,7 +360,7 @@ h6 {
     margin-right: auto;
 
     height: 140px;
-    margin-bottom: 60px;
+
 }
 
 .prising__tags__price {
@@ -341,7 +400,7 @@ h6 {
     justify-content: space-between;
 
     padding-bottom: 120px;
-
+    flex-wrap: wrap;
 }
 
 
@@ -349,8 +408,8 @@ h6 {
 .prising__tags__item {
 
     max-width: 440px;
-    width: 30%;
-    height: 670px;
+    width: 32%;
+    height: 600px;
     text-align: center;
     background-color: #ffffff;
     border-radius: 30px;
@@ -423,13 +482,16 @@ h6 {
     align-items: center;
 }
 
+
+
+
 .header__get__start {
     max-width: 700px;
     width: 100%;
     height: 200px;
-
     margin-left: auto;
     margin-right: auto;
+
     text-align: center;
 
 }
@@ -474,10 +536,13 @@ h6 {
     height: 50px;
 
 
+
 }
 
 .get__start__btns {
     margin-top: 20px;
+
+
 }
 
 .start__btn:focus {
@@ -535,8 +600,9 @@ h6 {
 .footer__nav {
     margin-top: 50px;
 
-
 }
+
+
 
 .footer__get-started-btn {
     text-decoration: none;
@@ -563,4 +629,82 @@ h6 {
 
 .footer__get-started-btn:hover {
     box-shadow: 0 0 30px 10px rgba(204, 204, 223, 0.5);
+}
+
+@media(max-width: 1230px) {}
+
+@media(max-width: 990px) {
+    .nav__link {
+        margin: 0 15px;
+    }
+
+
+    .footer__get-started-btn {
+        margin-left: 15px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .footer_nav__link {
+        display: none;
+    }
+
+
+}
+
+@media(max-width: 770px) {
+
+
+
+    .intro__title {
+        font-size: 76px;
+    }
+
+    .prising__tags__item {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+    }
+
+    .prising__tags {
+        padding-bottom: 60px;
+    }
+}
+
+@media(max-width: 575px) {
+    .intro__title {
+        font-size: 56px;
+    }
+
+    .intro__subtitleUp {
+        font-size: 11px;
+    }
+
+
+    .pricing__title {
+        font-size: 56px;
+    }
+
+    .start__btn {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .header__get__start__title {
+        font-size: 35px;
+    }
+
+    .start__btn--second {
+        margin-top: 10px;
+
+    }
+
+    .footer__get-started-btn {
+        display: none;
+    }
 }
