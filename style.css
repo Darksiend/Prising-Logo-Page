@@ -712,6 +712,7 @@ h6 {
     .footer__get-started-btn {
         display: none;
     }
+<<<<<<< HEAD
 
     .header__arrow__img {
         margin-top: 30px;
@@ -738,3 +739,6 @@ h6 {
         line-height: 45px
     }
 }
+=======
+}
+>>>>>>> cd343d786a5e05e01ee28fafe01d58acc2e38b2c
