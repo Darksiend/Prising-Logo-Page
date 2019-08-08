@@ -220,6 +220,7 @@ h6 {
     border: 0;
     background: none;
     cursor: pointer;
+    display: none;
 
 
 }
@@ -651,6 +652,10 @@ h6 {
         display: none;
     }
 
+    .nav-toggle {
+        display: flex;
+    }
+
 
 }
 
@@ -663,7 +668,7 @@ h6 {
     }
 
     .prising__tags__item {
-        width: 80%;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 15px;
@@ -706,5 +711,30 @@ h6 {
 
     .footer__get-started-btn {
         display: none;
+    }
+
+    .header__arrow__img {
+        margin-top: 30px;
+
+
+    }
+
+    .intro__subtitleUp {
+        margin-bottom: 0;
+        margin-top: 50px;
+    }
+
+    .nav-toggle {
+        right: 15px;
+        top: 49px;
+    }
+
+    .footer__header__logo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header__get__start__title {
+        line-height: 45px
     }
 }
